@@ -1,0 +1,48 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Cloned repos (downloaded by notebook)
+piper-sample-generator/
+microWakeWord/
+
+# Generated audio samples
+generated_samples/
+augmented_clip.wav
+
+# Downloaded datasets
+mit_rirs/
+audioset/
+audioset_16k/
+fma/
+fma_16k/
+negative_datasets/
+
+# Generated features and trained models
+generated_augmented_features/
+trained_models/
+training_parameters.yaml
+
+# Large model/data files
+*.pt
+*.ckpt
+*.onnx
+*.tar
+*.zip
+*.flac
+*.wav
+*.mp3
+*.npy
+*.pb
+
+# OS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
