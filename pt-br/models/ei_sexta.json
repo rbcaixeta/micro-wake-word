@@ -1,6 +1,6 @@
 {
   "type": "micro",
-  "wake_word": "ei sexta",
+  "wake_word": "Ei Sexta!",
   "author": "rbcaixeta",
   "website": "https://www.khromie.com",
   "model": "ei_sexta.tflite",
