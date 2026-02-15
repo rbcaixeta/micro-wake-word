@@ -1,11 +1,11 @@
 {
   "type": "micro",
-  "wake_word": "Ei Sexta!",
+  "wake_word": "Ei Sexta",
   "author": "rbcaixeta",
   "website": "https://www.khromie.com",
   "model": "ei_sexta.tflite",
   "trained_languages": [
-    "pt-BR"
+    "pt"
   ],
   "version": 2,
   "micro": {
@@ -13,6 +13,6 @@
     "sliding_window_size": 5,
     "feature_step_size": 10,
     "tensor_arena_size": 30000,
-    "minimum_esphome_version": "2024.7"
+    "minimum_esphome_version": "2024.7.0"
   }
 }
